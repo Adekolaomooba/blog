@@ -1,0 +1,95 @@
+{
+  "news": [
+    {
+      "image": "https://techcrunch.com/wp-content/uploads/2024/09/CMC_7975.jpg?resize=1200,800",
+      "title": "Apple may add an iPhone Air to its linedowntowner",
+      "description": "Apple’s next major iPhone upgrade will include a new model called the iPhone 17 Air, according to Bloomberg’s Mark Gurman. This seems like an obvious way to expand the lineup",
+      "author": "Adekola OmoOba",
+      "id": "23d7"
+    },
+    {
+      "image": "https://cdn.vox-cdn.com/thumbor/wPO2usOSxctI84haZv11M8ErP_0=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23587767/acastro_220524_STK428_0003.jpg",
+      "title": "El Salvador Strikes $1.4 Billion IMF Deal After Scaling Back Bitcoin Policies",
+      "description": "El Salvador secured a $1.4 billion loan deal with the IMF after agreeing to scale back its bitcoin policies, making cryptocurrency acceptance voluntary for businesses and limiting public sector involvement. The deal aims to stabilize the country's economy, wi…",
+      "author": "Joseph",
+      "id": "45fa"
+    },
+    {
+      "image": "https://cdn.vox-cdn.com/thumbor/wPO2usOSxctI84haZv11M8ErP_0=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23587767/acastro_220524_STK428_0003.jpg",
+      "title": "Is this Bitcoin's golden moment? These are 3 key things to watch for cryptos in 2025",
+      "description": "Could 2025 be another game changing year for Bitcoin and other cryptocurrencies? Here are the three things to watch in the new year.",
+      "author": "Olatunde",
+      "id": "5f25"
+    },
+    {
+      "image": "https://gizmodo.com/app/uploads/2025/01/MacBook-Pro-13.3-inch-2018.jpg",
+      "title": "Best Afro fusionist in the world",
+      "description": "Been an afro fusion, i have gained insight on how to create a fusion based meal. first let me introduce you to what is called afro fusion",
+      "author": "kehinde Adebusola",
+      "id": "67e7"
+    },
+    {
+      "id": "a086",
+      "image": "https://cdn.vox-cdn.com/thumbor/wPO2usOSxctI84haZv11M8ErP_0=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23587767/acastro_220524_STK428_0003.jpg",
+      "title": "North Korea linked to crypto heists of over $650 million in 2024 alone",
+      "description": "A joint report from US, Japan, and South Korea suggests North Korean hackers known as Lazarus Group were behind the $235 million crypto heist of Indian exchange WazirX.",
+      "author": "Quentyn Kennemer"
+    }
+  ],
+  "users": [
+    {
+      "name": "Adekola",
+      "email": "adekola.adebayo2@gmail.com",
+      "username": "ade2289",
+      "password": "123456",
+      "gender": "male",
+      "role": "admin",
+      "id": "4f8b"
+    },
+    {
+      "id": "ef3b",
+      "name": "Adebusola",
+      "email": "adebusola@gmail.com",
+      "username": "adebusola",
+      "password": "228963",
+      "gender": "Female",
+      "role": "Subscriber"
+    },
+    {
+      "id": "f547",
+      "name": "Olamitide",
+      "email": "olamitide@adekola.com",
+      "username": "olamitide",
+      "password": "Password2289",
+      "gender": "Female",
+      "role": "Subscriber"
+    },
+    {
+      "id": "5744",
+      "name": "oluwatoyin",
+      "email": "oluwatoyin@gmail.com",
+      "username": "oluwatoyin",
+      "password": "oluwatoyin4real",
+      "gender": "Female",
+      "role": "Subscriber"
+    },
+    {
+      "id": "4eb5",
+      "name": "Kehinde Adebayo",
+      "email": "kadebusola0091@gmail.com",
+      "username": "Thecrown23",
+      "password": "Adebusola@23",
+      "gender": "Female",
+      "role": "Subscriber"
+    },
+    {
+      "id": "fc73",
+      "name": "abimbola",
+      "email": "yusufabimbola09@gmail.com",
+      "username": "abimbola",
+      "password": "123456",
+      "gender": "Female",
+      "role": "Subscriber"
+    }
+  ]
+}
