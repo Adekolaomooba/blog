@@ -21,6 +21,7 @@ export default function SignIn() {
     const [password, setPassword] = useState('')
     const [voidField, setVoidField] = useState('')
     const [tokenState, setTokenState] = useRecoilState(TokenAtom)
+    const [passwordView, setPasswordView] = useState('password')
 
 
     const signInHandler = async (e) => {
@@ -75,6 +76,14 @@ export default function SignIn() {
     // console.log(username);
     // console.log(password);
 
+    const changePassType = () => {
+        if (passwordView == 'text') {
+            setPasswordView('password')
+        } else if (passwordView == 'password') {
+            setPasswordView('text')
+        }
+    }
+
 
 
 
@@ -93,12 +102,21 @@ export default function SignIn() {
                             value={username}
                             onChange={(e) => { setUsername(e.target.value) }} />
                     </div>
-                    <div className=' w-full mx-auto '>
-                        <label className=' block ' htmlFor="">Password:</label>
+                    <div className=' w-full mx-auto relative '>
+                        <label className=' block  ' htmlFor="">Password:</label>
                         <input className=' block w-full h-14 rounded text-black px-5 '
-                            type="password"
+                            type={passwordView}
                             value={password}
                             onChange={(e) => { setPassword(e.target.value) }} />
+                        
+                        {
+                            passwordView === 'password' && (<i className=' absolute bottom-5 right-5 text-black pi pi-eye '
+                                onClick={changePassType} ></i>)
+                            }
+                        {
+                            passwordView === 'text' && (<i className=' absolute bottom-5 right-5 text-black pi pi-eye-slash '
+                                onClick={changePassType} ></i>)
+                        }
                     </div>
                     <div className=' w-full mx-auto '>
                         <button className='w-full bg-gray-700 h-10 rounded-xl hover:bg-gray-600'
