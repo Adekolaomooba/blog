@@ -73,7 +73,7 @@ function Home() {
 
     return (
 
-        <div className=' w-full min-h-[85vh] bg-gray-500 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 px-[50px] gap-5 '>
+        <div className=' w-full min-h-[85vh] bg-gray-500 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 px-2 sm:px-[50px] gap-5 '>
             <div className={warning ? "absolute h-[90vh] w-full flex  justify-center bg-[#6b728081]" :
                 "hidden"
             }>
