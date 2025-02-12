@@ -112,10 +112,10 @@ export default function EditArticleForm() {
     }
 
     return (
-        <div className='w-full min-h-[85vh] bg-gray-500 '>
+        <div className='w-full min-h-[85vh] bg-gray-500 px-2 sm:px-[50px] '>
 
-            <div className=' mx-[100px] '>
-                <h3 className=' text-center text-3xl font-bold  '>
+            <div>
+                <h3 className=' text-center text-3xl font-bold pt-5 '>
                     Edit Post
                 </h3>
 

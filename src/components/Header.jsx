@@ -40,7 +40,7 @@ function Header() {
 
     return (
         <div className=' w-full h-[10vh] bg-gray-500 text-white flex 
-                        justify-between items-center  px-[50px] font-bold '>
+                        justify-between items-center px-2  sm:px-[50px] font-bold '>
 
             <div className=''>
                 <h1 className=' text-5xl '><Link to='/' >Blog</Link></h1>

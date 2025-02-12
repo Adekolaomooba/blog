@@ -74,7 +74,7 @@ function Home() {
     return (
 
         <div className=' w-full min-h-[85vh] bg-gray-500 grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 px-2 sm:px-[50px] gap-5 '>
-            <div className={warning ? "absolute h-[90vh] w-full flex  justify-center bg-[#6b728081]" :
+            <div className={warning ? "fixed h-[90vh] w-full flex  justify-center bg-[#6b728081]" :
                 "hidden"
             }>
                 <div className='max-w-[400px] h-fit py-[50px] px-[50px] rounded-xl bg-gray-700 my-auto'>
@@ -109,7 +109,9 @@ function Home() {
                                     <p className=' text-white font-bold '> {element.author} </p>
                                     <div className='flex gap-2'>
                                         <NavLink to={`editarticle/${index.toString()}`}>
-                                            <button className={isLoggedIn ? 'p-3 bg-gray-500 rounded hover:bg-gray-600' : 'hidden'}>Edit</button>
+                                            <button className={isLoggedIn ? 'p-3 bg-gray-500 rounded hover:bg-gray-600' : 'hidden'}>
+                                                Edit
+                                            </button>
                                         </NavLink>
                                         <button className={isLoggedIn ? 'p-3 bg-gray-500 rounded hover:bg-gray-600' : 'hidden'}
                                                 onClick={()=>warningDisplay(element.id)}>

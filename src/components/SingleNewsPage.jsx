@@ -54,12 +54,12 @@ function SingleNewsPage() {
     }, [allArticle, newsArticle])
 
     useEffect(()=>{
-        if (token) {
+        if (token.access) {
             setIsLoggedIn(true)
         } else{
             setIsLoggedIn(false)
         }
-    }, [])
+    }, [token])
 
 
 
@@ -80,7 +80,7 @@ function SingleNewsPage() {
         Navigate('/');
 
     }
-
+    
 
 
 
@@ -139,8 +139,8 @@ function SingleNewsPage() {
 
 
     return (
-        <div className=' w-full min-h-[85vh] bg-gray-500 px-[50px] '>
-            <div className={warning ? "absolute h-[90vh] w-full flex  justify-center bg-[#6b728081]" :
+        <div className=' w-full min-h-[85vh] bg-gray-500 px-2 lg:px-[50px] '>
+            <div className={warning ? "fixed h-[100vh] w-full flex  justify-center bg-[#6b728081]" :
                 "hidden"
             }>
                 <div className='max-w-[400px] h-fit py-[50px] px-[50px] rounded-xl bg-gray-700 my-auto'>
@@ -159,19 +159,15 @@ function SingleNewsPage() {
             </div>
 
             <div className="news-details">
-                <div className='flex justify-between sm:flex-wrap'>
+                <div className='flex flex-col'>
                     <h3 className='text-3xl font-bold py-5'>{newsArticle.title}</h3>
-                    <div className='flex gap-5'>
-                            <button className={isLoggedIn ? 'px-5 h-fit py-3 my-auto bg-gray-700 rounded-xl hover:bg-gray-600':
-                                                            'hidden'
-                            }>
+                    <div className={isLoggedIn ? 'flex gap-5 pb-5' : 'hidden'}>
+                            <button className={`px-5 h-fit py-3 my-auto bg-gray-700 rounded-xl hover:bg-gray-600`}>
                                 <NavLink to={`/editarticle/${toBeEditedId}`}>
                                     Edit
                                 </NavLink>
                             </button>
-                        <button className={isLoggedIn ? 'px-5 h-fit py-3 my-auto bg-gray-700 rounded-xl hover:bg-gray-600' :
-                                                        'hidden'
-                        }
+                        <button className={`px-5 h-fit py-3 my-auto bg-gray-700 rounded-xl hover:bg-gray-600`}
                             onClick={() => setWarning(true)}>
                             Delete
                         </button>

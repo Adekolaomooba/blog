@@ -111,7 +111,7 @@ export default function SignUp() {
 
 
         return (
-            <div className='bg-gray-500 w-full min-h-[85vh] px-[50px] '>
+            <div className='bg-gray-500 w-full min-h-[85vh] px-2 sm:px-[50px] '>
                 <div className=' max-w-[400px] py-20 mx-auto '>
                     <form className='w-full flex flex-col gap-3 ' action="">
                         <div className=' w-full mx-auto '>
